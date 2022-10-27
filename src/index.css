@@ -1,13 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
+
+/* -----------sidebar start here------ */
+.font-style-hed {
+  font-weight: normal;
+
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background: rgb(8, 8, 34);
+  color: #fff;
+  height: 125vh;
+  width: 300px;
+  transition: all 0.5s;
+  overflow-y: hidden !important;
+}
+
+
+.size {
+  font-size: 25px;
+  margin-top: -7px;
+  margin-left: 3px;
+}
+
+.color {
+  background: rgb(247, 245, 245);
+
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.card-5 {
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.20), 0 2px 1px rgba(0, 0, 0, 0.10);
+
+}
+
+.size-logo {
+  font-size: 65px;
+}
+
+.hr {
+  border-top: 1px solid white;
+}
+
+.card-round-image {
+  width: 120px !important;
+  height: 120px !important;
+  margin-top: 3rem;
+
+  border-radius: -1rem;
+  z-index: 1;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link {
+  margin-top: 0.7rem;
+  display: flex;
+  color: #fff;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background: rgb(223, 226, 228);
+  color: #000;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.active {
+  background: rgb(232, 236, 238);
+  color: #000;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+}
+
+.small-text {
+  font-size: 13px;
+  color: grey;
+  font-weight: 600;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+
+
+/* -----------sidebar end here------ */
+
+/* -----------dashboard start here------ */
+
+.padding2 {
+  padding: 1%;
+}
+
+.heading {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+
+}
+
+.left-side {
+  font-size: 23px;
+  font-weight: 700;
+
+}
+
+.small-logo {
+  width: 30px;
+  height: 20px;
+
+
+}
+
+.small-logo2 {
+  width: 30px;
+  height: 28px;
+  border-radius: 20px;
+
+}
+
+.icons2 {
+  font-size: 20px;
+  margin: 0rem 0.6rem;
+  cursor: pointer;
+}
+
+.right-side {
+  display: flex;
+  height: 5rem;
+}
+
+.text {
+  font-size: 10px;
+  color: white;
+  background-color: #1a1920;
+  height: 2rem;
+  margin-top: -1rem;
+  width: 2rem;
+  border-radius: 40px;
+  z-index: 9999;
+
+  padding: 5px;
+}
+
+.heading2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 10px;
+  margin: 0.2rem;
+
+}
+
+.icons3 {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin: 1rem;
+  background: linear-gradient(to bottom left, #3366ff 0%, #6699ff 100%)
+}
+
+.margin-top {
+  margin-top: -10px;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.border {
+  border-radius: 15px;
+}
+
+@media (max-width:800px) {
+  .font-size {
+    font-size: 20px;
+    margin-left: 0.7rem;
+
+  }
+
+  .heading {
+    display: block;
+  }
+}
+
+/* -----------dashboard end here------ */
