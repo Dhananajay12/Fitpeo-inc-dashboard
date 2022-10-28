@@ -11,9 +11,12 @@ const SidebarLink = styled(Link)`
   list-style: none;
   height: 27px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   transition: 0.7s linear;
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
   &:hover {
     cursor: pointer;
   }
