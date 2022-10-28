@@ -153,6 +153,13 @@ main {
 
 }
 
+.heading3 {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+
+}
+
 .left-side {
   font-size: 23px;
   font-weight: 700;
@@ -182,6 +189,7 @@ main {
 .right-side {
   display: flex;
   height: 5rem;
+
 }
 
 .text {
@@ -323,6 +331,73 @@ main {
 
 .padding3 {
   padding: 5%;
+}
+
+.edit-info {
+  list-style: none;
+  z-index: 1;
+  font-size: 15px;
+  margin-top: 0.2rem;
+  position: absolute;
+  background-color: white;
+  padding: 1%;
+  margin-left: 4rem;
+  float: right;
+  cursor: pointer;
+}
+
+.edit-info2 {
+  list-style: none;
+  z-index: 1;
+  font-size: 15px;
+  margin-top: 0.2rem;
+  position: absolute;
+  background-color: white;
+  padding: 1%;
+  right: 1rem;
+  width: 7rem;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+}
+
+.pointer {
+  padding: 0%;
+}
+
+.pointer:hover {
+  background-color: rgb(216, 215, 215);
+}
+
+.input-feild {
+  border-radius: 20px;
+  padding: 2%;
+  border: 1px solid gray;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+@media (max-width:600px) {
+  .input-feild {
+    border-radius: 20px;
+    padding: 2%;
+    display: block !important;
+    border: 1px solid gray;
+    margin-right: 8px;
+    margin-top: 2px;
+    width: 100%;
+  }
+
+  .heading3 {
+    justify-content: space-between;
+    display: block;
+    width: 100%;
+  }
+
+  .right-side {
+    margin-left: 1rem;
+
+  }
 }
 
 /* -----------dashboard end here------ */

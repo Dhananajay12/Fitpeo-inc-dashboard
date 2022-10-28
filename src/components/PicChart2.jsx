@@ -6,7 +6,6 @@ export const data = {
 
   options: {
     chart: {
-      width: 380,
       type: "donut",
     },
     dataLabels: {
@@ -50,7 +49,7 @@ const PicChart2 = () => {
         series={data.series}
         chartOptions={data.chartOptions}
         type="donut"
-        width={380}
+        height={350}
       />
     </div>
   );

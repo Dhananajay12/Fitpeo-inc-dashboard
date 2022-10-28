@@ -50,7 +50,7 @@ const LineChart = () => {
         series={data.series}
         type="area"
         height={200}
-        style={{ overflow: "hidden" }}
+        style={{ overflow: "hidden", marginTop: "-1rem" }}
       />
       ;
     </>
