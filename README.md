@@ -4,7 +4,7 @@ Website Link : https://fitpeo-inc-task.netlify.app
 
 ![image](https://user-images.githubusercontent.com/86872762/198893880-4a9a8896-595a-455f-a907-4b8c590a76d6.png)
 
-
+<img src="https://user-images.githubusercontent.com/86872762/198893880-4a9a8896-595a-455f-a907-4b8c590a76d6.png" width="48">
 
 ![image](https://user-images.githubusercontent.com/86872762/198893961-3f3ab3ff-3bc1-455b-a61d-13c15f4f9699.png)
 
