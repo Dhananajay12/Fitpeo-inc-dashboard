@@ -2,6 +2,7 @@
 Website Link : https://fitpeo-inc-task.netlify.app
 
 
+![image](https://user-images.githubusercontent.com/86872762/198893880-4a9a8896-595a-455f-a907-4b8c590a76d6.png)
 
 
 
