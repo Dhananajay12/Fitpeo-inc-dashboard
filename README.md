@@ -13,6 +13,7 @@ Website Link : https://fitpeo-inc-task.netlify.app
 
 ![image](https://user-images.githubusercontent.com/86872762/198894056-f32d5282-e562-46fc-8263-93eff9ef9f9f.png)
 
+![image](https://user-images.githubusercontent.com/86872762/198894623-841eb7fd-23dc-48c0-8c6e-001d82e1c9bd.png)
 
 
 # Getting Started with Create React App
