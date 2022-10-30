@@ -6,6 +6,12 @@ Website Link : https://fitpeo-inc-task.netlify.app
 
 
 
+![image](https://user-images.githubusercontent.com/86872762/198893961-3f3ab3ff-3bc1-455b-a61d-13c15f4f9699.png)
+
+![image](https://user-images.githubusercontent.com/86872762/198894040-9d88c845-e9be-4c56-88a3-62a5c6fb645b.png)
+
+
+![image](https://user-images.githubusercontent.com/86872762/198894056-f32d5282-e562-46fc-8263-93eff9ef9f9f.png)
 
 
 
